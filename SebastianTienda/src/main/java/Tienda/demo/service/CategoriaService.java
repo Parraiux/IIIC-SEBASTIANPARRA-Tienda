@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
+
 package Tienda.demo.service;
 
-/**
- *
- * @author juans
- */
-public class CategoriaService {
+import Tienda.demo.domain.Categoria;
+import java.util.List;
+
+public interface CategoriaService {
+    
+    public List<Categoria> getCategorias(boolean activos); //crea una lista de categoria y le mete categorias
+    
     
 }
