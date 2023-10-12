@@ -22,7 +22,7 @@ body{
 .linea-horizontal{
     border: none;
     border-top: 2px solid white;
-    margin: 1px 3;
+    margin: 1px;
 }
 
 #titulo1{
@@ -61,7 +61,7 @@ body{
 .columna-izquierda{
     float:left;
     width: 17%;
-    padding: 20;
+    padding: 20px;
     box-sizing: border-box;
 
 }
@@ -70,7 +70,7 @@ body{
     background-color: navajowhite;
     float:left;
     width: 83%;
-    padding: 20;
+    padding: 20px;
     box-sizing: border-box;
 
 }
@@ -99,7 +99,7 @@ body{
 #pa1{
     background-color : aquamarine;
     color: black;
-    text-align: left auto;
+    text-align: left;
     font-size: medium;
 
     margin: 0;
@@ -131,7 +131,7 @@ body{
 #pa2{
     background-color : navajowhite;
     color: black;
-    text-align: left auto;
+    text-align: left;
     font-size: medium;
      margin: 0;
      height: 50px;
