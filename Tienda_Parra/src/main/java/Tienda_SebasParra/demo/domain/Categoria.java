@@ -5,6 +5,7 @@ package Tienda_SebasParra.demo.domain;
 import jakarta.persistence.*;
 import java.io.Serializable;
 import lombok.Data;
+import java.util.List;
 
 @Data
 @Entity
@@ -22,6 +23,11 @@ public class Categoria implements Serializable {
     private boolean activo;
     public Categoria() {
     }
+    
+    @OneToMany
+    @JoinColumn(name = "id_categoria", updatable = false)
+    List<Producto> productos;
+    
     public Categoria(String categoria, boolean activo) {
         this.descripcion = categoria;
         this.activo = activo;

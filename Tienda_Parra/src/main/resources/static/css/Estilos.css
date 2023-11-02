@@ -1,95 +1,179 @@
-*{
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 sep. 2023, 21:12:08
+    Author     : MARÍA CELESTE
+*/
+
+body{
+    background-color: blue;
     margin: 0;
-    padding: 0;
+
+
+}
+#menu1{
+    background-color: green;
+    color: white;
+    text-align: left;
+    font-size: small;
+}
+#menu2{
+    background-color: green;
+    color: white;
+    text-align: left;
+    font-size: small;
+}
+
+.linea-horizontal{
+    border: none;
+    border-top: 2px solid white;
+    margin: 1px 3;
+}
+
+#titulo1{
+    background-color: blue;
+    color: white;
+    text-align: left;
+    font-size: medium;
+}
+
+#titulo2{
+    background-color : black;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    margin: 0;
+}
+
+#titulo3{
+    background-color : navajowhite;
+    color: black;
+    text-align: left;
+    font-size: medium;
+    margin: 0;
+}
+
+
+
+
+.linea-horizontal2{
+    border: none;
+    border-top: 2px solid grey;
+    margin: 0;
+}
+
+
+.columna-izquierda{
+    float:left;
+    width: 17%;
+    padding: 20;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.main{
-  background-color: Navy;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.columna-derecha{
+    background-color: navajowhite;
+    float:left;
+    width: 83%;
+    padding: 20;
+    box-sizing: border-box;
+
 }
 
-.cabeza{
-    color: White;
-    background-color: SlateBlue;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
+#subtitulo1{
+    background-color : aquamarine;
+    color: black;
+    text-align: left;
+    font-size: medium;
+
+    margin: 0;
 }
 
-.Seccion-2{
-    background-color: MediumSeaGreen;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
+#images{
+
+    background-color:  navajowhite;
+    background-size: 150%;
+    text-align: left;
+    height: 180px;
+    margin: 0;
+
+
+
+
+}
+#pa1{
+    background-color : aquamarine;
+    color: black;
+    text-align: left auto;
+    font-size: medium;
+
+    margin: 0;
+    height: 600px;
 }
 
-.bloque-izq{
-    width: 50px;
-    height: 100%;
-    background-color: Aquamarine;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
+#subtitulo2{
+    background-color : navajowhite;
+    color: black;
+    text-align: left;
+    font-size: medium;
+
+    margin: 0;
 }
 
-.bloque-izq h3{
-    font-size: 28px;
-}
-
-.bloque-izq h4{
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-.bloque-der{
-    width: 80%;
-    height: 100%;
-    background-color: Cornsilk;
+#p2{
+    background-color :  navajowhite;
+    color: black;
+    text-align: left;
+    font-size: medium;
+    margin: 0;
     
 }
-.home{
-    color: White;
-    background-color: Black;
-    width: 100%;
-    height: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.der-titilo{
-    background-color: Bisque;
-}
-
-.producto{
-
-    justify-content: center;
-    align-items: center;
-}
-
-.producto-img{
-     width: 20%;
-     margin: 30px 0;
-     margin-top: 10px;
-}
-.producto-img img{
-    object-fit: cover;
-    width: 100%;
-}
-
-.producto-text{
+.subra{
+   background-color: green;
+   color: white; 
     
 }
+#pa2{
+    background-color : navajowhite;
+    color: black;
+    text-align: left auto;
+    font-size: medium;
+     margin: 0;
+     height: 50px;
+    
+    
+}
+
+#subtitulo3{
+        background-color : navajowhite;
+    color: black;
+    text-align: left;
+    font-size: medium;
+
+    margin: 0;
+}
+
+#imagen2{
+
+    background-color:  navajowhite;
+    background-size: 150%;
+    text-align: left;
+    height: 180px;
+    margin: 0;
+
+
+
+
+}
+
+#subtitulo4{
+        background-color : navajowhite;
+    color: black;
+    text-align: left;
+    font-size: medium;
+    height: 246px; 
+    margin: 0;
+}
+

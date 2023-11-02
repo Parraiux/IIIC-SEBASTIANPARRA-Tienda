@@ -60,4 +60,6 @@ public class CategoriaController {
         model.addAttribute("categoria", categoria);
         return "/categoria/modifica";
     }
+    
+    
 }//Fin de la clase
